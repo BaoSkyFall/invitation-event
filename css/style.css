@@ -1805,11 +1805,20 @@ textarea:focus {
     background-position: 100% 100%;
     background-repeat: no-repeat;
 }
-
+@media (max-width: 767px) {
+    .wd_blog_box {
+        flex-direction: column;
+    }
+    .wd_blog_box img{
+        max-width: 100%;
+    }
+}
 .wd_blog_box {
     float: left;
     width: 100%;
     margin-bottom: 50px;
+    display: flex;
+    align-items: center;
 }
 
 .wd_blog_info {
@@ -1817,6 +1826,7 @@ textarea:focus {
     width: 100%;
     text-align: left;
     padding-top: 20px;
+    margin-bottom: 10%;
 }
 
 .wd_blog_info h3 {
