@@ -306,7 +306,7 @@
 	});
 	
 	// CountDown Js
-	var deadline = 'July 12 2024 00:00:00 GMT+0800';
+	var deadline = 'July 15 2024 00:00:00 GMT+0800';
 		function time_remaining(endtime){
 			var t = Date.parse(endtime) - Date.parse(new Date());
 			var seconds = Math.floor( (t/1000) % 60 );
